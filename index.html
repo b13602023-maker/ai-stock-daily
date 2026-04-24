@@ -26,7 +26,7 @@
 
 <div class="container">
     <header>
-        <h1>🤖 AI 台股每日推薦儀表板</h1>
+        <h1> AI 台股每日推薦儀表板</h1>
         <div class="date-badge" id="update-date">載入中...</div>
     </header>
 
@@ -47,28 +47,20 @@
             const container = document.getElementById('stock-container');
             
             data.recommendations.forEach(stock => {
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.innerHTML = `
-                    <div class="stock-title">
-                        <h2>${stock.name}</h2>
-                        <span class="stock-symbol">${stock.symbol}</span>
-                    </div>
-                    <div class="section-title">💡 推薦理由</div>
-                    <p>${stock.reason}</p>
-                    <div class="section-title">⏱️ 進場時機</div>
-                    <p>${stock.entry_timing}</p>
-                    <div class="price-box">
-                        <div>
-                            <span class="section-title">進場區間</span><br>
-                            <span class="entry">${stock.entry_price}</span>
-                        </div>
-                        <div>
-                            <span class="section-title">停利/停損</span><br>
-                            <span class="exit">${stock.exit_price}</span>
-                        </div>
-                    </div>
-                `;
+                // 在你的渲染循環中加入這段
+const card = `
+    <div class="stock-card">
+        <div class="type-tag">${stock.type}</div>
+        <h2>${stock.name} (${stock.symbol})</h2>
+        <p><strong>目前股價：</strong> <span class="price">${stock.current_price}</span></p>
+        <p><strong>推薦理由：</strong> ${stock.reason}</p>
+        <div class="price-box">
+            <span>停利：<b style="color:red">${stock.tp}</b></span>
+            <span>停損：<b style="color:green">${stock.sl}</b></span>
+        </div>
+        <a href="${stock.url}" target="_blank" class="buy-button">查看股市資訊</a>
+    </div>
+`;
                 container.appendChild(card);
             });
         })
