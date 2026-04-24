@@ -16,8 +16,29 @@ def fetch_market_summary():
     return f"近期台股大盤走勢：\n{hist['Close'].to_string()}"
 
 def get_ai_recommendations(market_data):
-    # 設定 AI 模型
-    model = genai.GenerativeModel('gemini-3-flash')
+    # 1. 讓程式自動尋找你的 API Key 支援的可用模型
+    valid_models = []
+    for m in genai.list_models():
+        if 'generateContent' in m.supported_generation_methods:
+            valid_models.append(m.name)
+    
+    if not valid_models:
+        print("錯誤：你的 API Key 沒有權限使用任何生成模型。")
+        return []
+        
+    # 2. 自動挑選最適合的模型 (優先尋找名稱有 flash 或是最新的)
+    chosen_model = valid_models[0]
+    for m in valid_models:
+        if 'flash' in m or 'pro' in m:
+            chosen_model = m
+            break
+            
+    # 去除 'models/' 前綴（如果有的話）
+    clean_model_name = chosen_model.replace('models/', '')
+    print(f"✅ 成功連線！自動選擇的 AI 模型為: {clean_model_name}")
+    
+    # 3. 使用自動找到的模型
+    model = genai.GenerativeModel(clean_model_name)
     
     # 精準的 Prompt 讓 AI 輸出我們需要的 JSON 格式
     prompt = f"""
@@ -44,6 +65,7 @@ def get_ai_recommendations(market_data):
         return json.loads(result_text)
     except Exception as e:
         print("AI 輸出解析失敗:", e)
+        print("AI 原始輸出內容:", response.text)
         return []
 
 def main():
