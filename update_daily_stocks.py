@@ -17,7 +17,7 @@ def fetch_market_summary():
 
 def get_ai_recommendations(market_data):
     # 設定 AI 模型
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
     
     # 精準的 Prompt 讓 AI 輸出我們需要的 JSON 格式
     prompt = f"""
