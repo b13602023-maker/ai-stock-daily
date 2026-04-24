@@ -56,7 +56,7 @@ def get_ai_recommendations(market_data):
 def main():
     # 1. 抓取大盤資訊
     twii = yf.Ticker("^TWII").history(period="1d")
-    market_info = f"今日台盤指數: {twii['Close'].iloc[-1]:.2 dream}"
+    market_info = f"今日台盤指數: {twii['Close'].iloc[-1]:.2f}"
     
     # 2. 讓 AI 選股 (只拿代號與理由)
     recommendations = get_ai_recommendations(market_info)
