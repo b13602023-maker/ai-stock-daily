@@ -1,35 +1,35 @@
 {
-    "date": "2026-06-04",
+    "date": "2026-06-05",
     "stocks": [
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，受惠於AI晶片需求爆發及先進製程技術領先地位，長期成長動能強勁。",
-            "current_price": 2400.0,
+            "reason": "全球晶圓代工龍頭，受惠於AI晶片需求爆發及先進製程技術領先，未來成長動能強勁。",
+            "current_price": 2375.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2640.0,
-            "sl": 2280.0
+            "tp": 2612.5,
+            "sl": 2256.25
         },
         {
-            "symbol": "2881",
-            "name": "富邦金",
+            "symbol": "2303",
+            "name": "聯電",
             "type": "中價股",
-            "reason": "台灣金融業龍頭之一，獲利穩健，受惠於升息環境下的利差擴大與投資收益成長，股利政策具吸引力。",
-            "current_price": 113.0,
-            "url": "https://tw.stock.yahoo.com/quote/2881.TW",
-            "tp": 124.3,
-            "sl": 107.35
+            "reason": "全球晶圓代工二哥，專注於成熟製程，受惠於車用電子、IoT等需求穩定成長，且具備合理的本益比。",
+            "current_price": 129.5,
+            "url": "https://tw.stock.yahoo.com/quote/2303.TW",
+            "tp": 142.45,
+            "sl": 123.02
         },
         {
-            "symbol": "2324",
-            "name": "仁寶",
+            "symbol": "2884",
+            "name": "玉山金",
             "type": "低價股",
-            "reason": "全球筆電及PC代工大廠，受惠於AI PC換機潮帶動的潛在需求，以及伺服器與醫療裝置業務的成長動能。",
-            "current_price": 42.45,
-            "url": "https://tw.stock.yahoo.com/quote/2324.TW",
-            "tp": 46.7,
-            "sl": 40.33
+            "reason": "穩健的金融控股公司，在數位金融領域佈局領先，資產品質良好，獲利穩定且配息率佳，具備長期投資價值。",
+            "current_price": 33.3,
+            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
+            "tp": 36.63,
+            "sl": 31.63
         }
     ]
 }
