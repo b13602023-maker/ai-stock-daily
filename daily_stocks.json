@@ -1,35 +1,35 @@
 {
-    "date": "2026-06-10",
+    "date": "2026-06-11",
     "stocks": [
-        {
-            "symbol": "2330",
-            "name": "台積電",
-            "type": "高價股",
-            "reason": "全球晶圓代工龍頭，受惠於AI趨勢與先進製程需求，產業地位穩固，具有長期成長潛力。",
-            "current_price": 2275.0,
-            "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2502.5,
-            "sl": 2161.25
-        },
-        {
-            "symbol": "2609",
-            "name": "陽明",
-            "type": "中價股",
-            "reason": "全球主要貨櫃航運商之一，受惠於國際貿易情勢與紅海危機等供給面影響，營運具備週期性爆發力。",
-            "current_price": 51.1,
-            "url": "https://tw.stock.yahoo.com/quote/2609.TW",
-            "tp": 56.21,
-            "sl": 48.55
-        },
         {
             "symbol": "2884",
             "name": "玉山金",
             "type": "低價股",
-            "reason": "台灣大型金融控股公司，經營穩健，在數位金融領域表現突出，提供相對穩定的股息收益。",
+            "reason": "台灣大型金控之一，經營穩健，獲利能力與股息發放穩定，適合穩健型投資人。",
             "current_price": 33.65,
             "url": "https://tw.stock.yahoo.com/quote/2884.TW",
             "tp": 37.02,
             "sl": 31.97
+        },
+        {
+            "symbol": "2303",
+            "name": "聯電",
+            "type": "中價股",
+            "reason": "全球晶圓代工大廠，受惠於半導體產業庫存調整尾聲與特殊製程需求，具備長期發展潛力。",
+            "current_price": 122.5,
+            "url": "https://tw.stock.yahoo.com/quote/2303.TW",
+            "tp": 134.75,
+            "sl": 116.38
+        },
+        {
+            "symbol": "2330",
+            "name": "台積電",
+            "type": "高價股",
+            "reason": "全球晶圓代工龍頭，技術領先，受惠於AI與高效能運算趨勢，市場地位穩固，成長動能強勁。",
+            "current_price": 2250.0,
+            "url": "https://tw.stock.yahoo.com/quote/2330.TW",
+            "tp": 2475.0,
+            "sl": 2137.5
         }
     ]
 }
