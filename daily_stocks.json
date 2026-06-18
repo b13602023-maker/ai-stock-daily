@@ -1,35 +1,35 @@
 {
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "stocks": [
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，AI晶片需求激增的主要受惠者，技術領先，市場地位穩固。",
-            "current_price": 2355.0,
+            "reason": "全球晶圓代工龍頭，受惠於AI與高效能運算趨勢，技術領先地位難以撼動，是台灣科技產業的指標股。",
+            "current_price": 2395.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2590.5,
-            "sl": 2237.25
+            "tp": 2634.5,
+            "sl": 2275.25
         },
         {
-            "symbol": "2303",
-            "name": "聯電",
+            "symbol": "1301",
+            "name": "台塑",
             "type": "中價股",
-            "reason": "全球第二大晶圓代工廠，成熟製程需求逐漸復甦，具備穩定的訂單與技術基礎。",
-            "current_price": 137.5,
-            "url": "https://tw.stock.yahoo.com/quote/2303.TW",
-            "tp": 151.25,
-            "sl": 130.62
+            "reason": "台灣石化業龍頭，營運穩健，產品多元，受惠於原物料價格波動與全球經濟復甦，具備長期投資價值。",
+            "current_price": 50.8,
+            "url": "https://tw.stock.yahoo.com/quote/1301.TW",
+            "tp": 55.88,
+            "sl": 48.26
         },
         {
             "symbol": "2884",
             "name": "玉山金",
             "type": "低價股",
-            "reason": "穩健經營的銀行業，獲利能力良好，且在數位金融方面發展積極，具備成長潛力。",
-            "current_price": 35.55,
+            "reason": "績優金融股，積極發展數位金融，獲利能力穩定，股利政策良好，具長期投資價值及防禦性。",
+            "current_price": 35.85,
             "url": "https://tw.stock.yahoo.com/quote/2884.TW",
-            "tp": 39.1,
-            "sl": 33.77
+            "tp": 39.44,
+            "sl": 34.06
         }
     ]
 }
