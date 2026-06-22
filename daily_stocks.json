@@ -1,35 +1,35 @@
 {
-    "date": "2026-06-21",
+    "date": "2026-06-22",
     "stocks": [
-        {
-            "symbol": "2884",
-            "name": "玉山金",
-            "type": "低價股",
-            "reason": "台灣大型金控之一，經營穩健，具備穩定的股利發放能力，受惠於升息環境和金融市場逐步回穩，是價值投資的良好標的。",
-            "current_price": 35.4,
-            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
-            "tp": 38.94,
-            "sl": 33.63
-        },
-        {
-            "symbol": "2412",
-            "name": "中華電",
-            "type": "中價股",
-            "reason": "台灣電信業龍頭，具備高度穩定性與防禦性，股利政策穩健，是追求穩定現金流的良好選擇，且受惠於5G普及和數位轉型趨勢。",
-            "current_price": 144.0,
-            "url": "https://tw.stock.yahoo.com/quote/2412.TW",
-            "tp": 158.4,
-            "sl": 136.8
-        },
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，掌握先進製程技術，受惠於AI、高效能運算等趨勢，是全球科技發展的關鍵供應商，長期成長潛力強勁。",
-            "current_price": 2410.0,
+            "reason": "全球晶圓代工龍頭，AI趨勢最大受惠者，技術領先地位難以撼動，長期成長動能強勁。",
+            "current_price": 2505.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2651.0,
-            "sl": 2289.5
+            "tp": 2755.5,
+            "sl": 2379.75
+        },
+        {
+            "symbol": "3231",
+            "name": "緯創",
+            "type": "中價股",
+            "reason": "AI伺服器組裝主要供應商之一，直接受惠於AI需求爆發，具備高成長潛力。",
+            "current_price": 163.0,
+            "url": "https://tw.stock.yahoo.com/quote/3231.TW",
+            "tp": 179.3,
+            "sl": 154.85
+        },
+        {
+            "symbol": "2891",
+            "name": "中信金",
+            "type": "低價股",
+            "reason": "台灣大型金控之一，業務多元且穩定，受惠於金融業景氣復甦，殖利率表現良好。",
+            "current_price": 70.7,
+            "url": "https://tw.stock.yahoo.com/quote/2891.TW",
+            "tp": 77.77,
+            "sl": 67.17
         }
     ]
 }
