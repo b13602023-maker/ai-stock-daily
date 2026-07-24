@@ -1,27 +1,35 @@
 {
-    "date": "2026-07-23",
+    "date": "2026-07-24",
     "stocks": [
         {
-            "symbol": "3231",
-            "name": "緯創",
-            "type": "中價股",
-            "reason": "AI伺服器組裝大廠之一，直接受惠於AI產業趨勢，營運成長動能強勁。",
-            "current_price_approx": 115,
-            "current_price": 175.5,
-            "url": "https://tw.stock.yahoo.com/quote/3231.TW",
-            "tp": 193.05,
-            "sl": 166.72
+            "symbol": "2330",
+            "name": "台積電",
+            "type": "高價股",
+            "reason": "全球晶圓代工龍頭，受惠於AI晶片需求爆發，技術領先地位穩固，長期成長趨勢明確。",
+            "current_price": 2355.0,
+            "url": "https://tw.stock.yahoo.com/quote/2330.TW",
+            "tp": 2590.5,
+            "sl": 2237.25
         },
         {
-            "symbol": "2891",
-            "name": "中信金",
+            "symbol": "2881",
+            "name": "富邦金",
+            "type": "中價股",
+            "reason": "台灣大型金控公司，業務多元涵蓋銀行、保險、證券等，獲利穩健且具備市場領導地位。",
+            "current_price": 128.5,
+            "url": "https://tw.stock.yahoo.com/quote/2881.TW",
+            "tp": 141.35,
+            "sl": 122.07
+        },
+        {
+            "symbol": "2884",
+            "name": "玉山金",
             "type": "低價股",
-            "reason": "金融控股集團，業務多元且穩定，受惠於升息環境與股市熱絡，獲利展望佳。",
-            "current_price_approx": 36,
-            "current_price": 62.9,
-            "url": "https://tw.stock.yahoo.com/quote/2891.TW",
-            "tp": 69.19,
-            "sl": 59.75
+            "reason": "以穩健經營和創新服務著稱，在金融科技與ESG方面表現優異，具備良好的成長潛力。",
+            "current_price": 35.85,
+            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
+            "tp": 39.44,
+            "sl": 34.06
         }
     ]
 }
