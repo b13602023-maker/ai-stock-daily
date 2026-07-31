@@ -1,35 +1,35 @@
 {
-    "date": "2026-07-30",
+    "date": "2026-07-31",
     "stocks": [
+        {
+            "symbol": "2884",
+            "name": "玉山金",
+            "type": "低價股",
+            "reason": "台灣金融業績優生，資產品質良好且數位金融發展領先，長期投資具穩健性。",
+            "current_price": 38.75,
+            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
+            "tp": 42.62,
+            "sl": 36.81
+        },
+        {
+            "symbol": "1216",
+            "name": "統一",
+            "type": "中價股",
+            "reason": "台灣食品與零售龍頭，產品線廣泛且品牌實力雄厚，營運穩健且具備防禦性，適合保守型投資人。",
+            "current_price": 73.8,
+            "url": "https://tw.stock.yahoo.com/quote/1216.TW",
+            "tp": 81.18,
+            "sl": 70.11
+        },
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球先進半導體製造領導者，AI及高效能運算趨勢下的關鍵供應商，技術護城河深厚，營收獲利穩健成長。",
-            "current_price": 2235.0,
+            "reason": "全球晶圓代工領導者，技術與市佔率領先，受惠於AI與高效能運算等趨勢，為台灣科技產業核心。",
+            "current_price": 2390.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2458.5,
-            "sl": 2123.25
-        },
-        {
-            "symbol": "2303",
-            "name": "聯電",
-            "type": "中價股",
-            "reason": "全球第二大晶圓代工廠，在成熟製程領域佔據重要地位，受惠於車用電子、IoT等需求，營運穩定且具成本效益優勢。",
-            "current_price": 112.5,
-            "url": "https://tw.stock.yahoo.com/quote/2303.TW",
-            "tp": 123.75,
-            "sl": 106.88
-        },
-        {
-            "symbol": "1101",
-            "name": "台泥",
-            "type": "低價股",
-            "reason": "台灣水泥產業龍頭，積極轉型綠能及環保事業，受惠於基礎建設需求，且在永續發展領域具備長期潛力。",
-            "current_price": 24.35,
-            "url": "https://tw.stock.yahoo.com/quote/1101.TW",
-            "tp": 26.79,
-            "sl": 23.13
+            "tp": 2629.0,
+            "sl": 2270.5
         }
     ]
 }
