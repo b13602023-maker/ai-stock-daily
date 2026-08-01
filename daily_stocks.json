@@ -1,35 +1,35 @@
 {
-    "date": "2026-07-31",
+    "date": "2026-08-01",
     "stocks": [
-        {
-            "symbol": "2884",
-            "name": "玉山金",
-            "type": "低價股",
-            "reason": "台灣金融業績優生，資產品質良好且數位金融發展領先，長期投資具穩健性。",
-            "current_price": 38.75,
-            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
-            "tp": 42.62,
-            "sl": 36.81
-        },
-        {
-            "symbol": "1216",
-            "name": "統一",
-            "type": "中價股",
-            "reason": "台灣食品與零售龍頭，產品線廣泛且品牌實力雄厚，營運穩健且具備防禦性，適合保守型投資人。",
-            "current_price": 73.8,
-            "url": "https://tw.stock.yahoo.com/quote/1216.TW",
-            "tp": 81.18,
-            "sl": 70.11
-        },
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工領導者，技術與市佔率領先，受惠於AI與高效能運算等趨勢，為台灣科技產業核心。",
-            "current_price": 2390.0,
+            "reason": "AI趨勢帶動先進製程需求強勁，全球晶圓代工龍頭地位穩固，長期成長動能可期。",
+            "current_price": 2425.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2629.0,
-            "sl": 2270.5
+            "tp": 2667.5,
+            "sl": 2303.75
+        },
+        {
+            "symbol": "2308",
+            "name": "台達電",
+            "type": "中價股",
+            "reason": "受惠AI伺服器電源需求激增及電動車領域佈局深化，電源與散熱技術領先，營運展望正向。",
+            "current_price": 1640.0,
+            "url": "https://tw.stock.yahoo.com/quote/2308.TW",
+            "tp": 1804.0,
+            "sl": 1558.0
+        },
+        {
+            "symbol": "2884",
+            "name": "玉山金",
+            "type": "低價股",
+            "reason": "穩健的經營策略與獲利能力，數位金融發展領先同業，股息殖利率具吸引力，適合長期存股。",
+            "current_price": 38.65,
+            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
+            "tp": 42.52,
+            "sl": 36.72
         }
     ]
 }
