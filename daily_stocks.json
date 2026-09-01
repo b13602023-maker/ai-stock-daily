@@ -1,35 +1,35 @@
 {
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "stocks": [
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，受惠AI趨勢，技術領先，獲利穩健。",
-            "current_price": 2385.0,
+            "reason": "全球晶圓代工龍頭，技術領先，受惠於AI晶片及高階製程需求強勁，具長期成長潛力。",
+            "current_price": 2425.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2623.5,
-            "sl": 2265.75
+            "tp": 2667.5,
+            "sl": 2303.75
         },
         {
-            "symbol": "2412",
-            "name": "中華電",
+            "symbol": "3711",
+            "name": "日月光投控",
             "type": "中價股",
-            "reason": "台灣電信業龍頭，獲利穩定，股息殖利率佳，具防禦性。",
-            "current_price": 135.5,
-            "url": "https://tw.stock.yahoo.com/quote/2412.TW",
-            "tp": 149.05,
-            "sl": 128.72
+            "reason": "全球半導體封測龍頭，受惠於AI發展帶動先進封裝需求，營運表現穩健。",
+            "current_price": 612.0,
+            "url": "https://tw.stock.yahoo.com/quote/3711.TW",
+            "tp": 673.2,
+            "sl": 581.4
         },
         {
-            "symbol": "2884",
-            "name": "玉山金",
+            "symbol": "2880",
+            "name": "華南金",
             "type": "低價股",
-            "reason": "穩健的金融股，長期經營績效良好，具成長潛力。",
-            "current_price": 38.95,
-            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
-            "tp": 42.85,
-            "sl": 37.0
+            "reason": "大型金控公司，業務穩健，受惠於升息環境與金融市場回溫，具備殖利率保護。",
+            "current_price": 42.1,
+            "url": "https://tw.stock.yahoo.com/quote/2880.TW",
+            "tp": 46.31,
+            "sl": 39.99
         }
     ]
 }
