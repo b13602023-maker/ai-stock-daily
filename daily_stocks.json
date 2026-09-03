@@ -1,35 +1,35 @@
 {
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "stocks": [
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，AI趨勢推動先進製程需求強勁，為台灣經濟重要支柱，具備長期成長潛力。",
-            "current_price": 2395.0,
+            "reason": "全球半導體龍頭，先進製程技術領先，受惠於AI晶片及高效能運算需求強勁成長。",
+            "current_price": 2400.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2634.5,
-            "sl": 2275.25
+            "tp": 2640.0,
+            "sl": 2280.0
         },
         {
-            "symbol": "1301",
-            "name": "台塑",
+            "symbol": "2881",
+            "name": "富邦金",
             "type": "中價股",
-            "reason": "國內塑化產業龍頭，產品應用廣泛，受惠於景氣復甦帶動需求及集團多角化經營，具備長期投資價值。",
-            "current_price": 66.1,
-            "url": "https://tw.stock.yahoo.com/quote/1301.TW",
-            "tp": 72.71,
-            "sl": 62.79
+            "reason": "台灣大型金控公司，業務多元涵蓋銀行、保險、證券，財務體質穩健，具備長期投資價值。",
+            "current_price": 146.5,
+            "url": "https://tw.stock.yahoo.com/quote/2881.TW",
+            "tp": 161.15,
+            "sl": 139.17
         },
         {
-            "symbol": "2885",
-            "name": "元大金",
+            "symbol": "2884",
+            "name": "玉山金",
             "type": "低價股",
-            "reason": "國內證券業務龍頭，受惠於股市活絡及財富管理需求增長，股利配發穩定，適合穩健型投資者。",
-            "current_price": 66.4,
-            "url": "https://tw.stock.yahoo.com/quote/2885.TW",
-            "tp": 73.04,
-            "sl": 63.08
+            "reason": "穩健成長的銀行金控，注重金融科技發展，海外佈局積極，品牌形象良好，適合穩健型投資人。",
+            "current_price": 43.25,
+            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
+            "tp": 47.58,
+            "sl": 41.09
         }
     ]
 }
