@@ -1,35 +1,35 @@
 {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "stocks": [
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球最大晶圓代工廠，掌握先進製程技術的絕對領導地位，是AI、HPC等趨勢不可或缺的供應商，具備強大的進入門檻與定價能力。",
-            "current_price": 2445.0,
+            "reason": "全球晶圓代工龍頭，受惠AI及HPC需求，技術領先地位難以撼動，長期成長趨勢明確。",
+            "current_price": 2410.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2689.5,
-            "sl": 2322.75
+            "tp": 2651.0,
+            "sl": 2289.5
         },
         {
-            "symbol": "2303",
-            "name": "聯電",
+            "symbol": "3231",
+            "name": "緯創",
             "type": "中價股",
-            "reason": "全球第三大晶圓代工廠，專注於成熟製程，在車用、工業、物聯網等特殊應用領域有穩定需求。評價相對合理，具備產業復甦及轉型潛力。",
-            "current_price": 141.5,
-            "url": "https://tw.stock.yahoo.com/quote/2303.TW",
-            "tp": 155.65,
-            "sl": 134.42
+            "reason": "AI伺服器及NB代工大廠，受惠AI浪潮帶動伺服器業務強勁成長，產品組合優化。",
+            "current_price": 185.5,
+            "url": "https://tw.stock.yahoo.com/quote/3231.TW",
+            "tp": 204.05,
+            "sl": 176.22
         },
         {
-            "symbol": "2884",
-            "name": "玉山金",
+            "symbol": "2886",
+            "name": "兆豐金",
             "type": "低價股",
-            "reason": "體質穩健、獲利能力優異的上市金控，以消金與財富管理見長，並積極發展數位金融。股價波動度較低，適合穩健型投資人。",
-            "current_price": 44.9,
-            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
-            "tp": 49.39,
-            "sl": 42.65
+            "reason": "官股金控，經營穩健，提供穩定股息殖利率，在升息環境下利差可望擴大，具防禦性。",
+            "current_price": 50.4,
+            "url": "https://tw.stock.yahoo.com/quote/2886.TW",
+            "tp": 55.44,
+            "sl": 47.88
         }
     ]
 }
