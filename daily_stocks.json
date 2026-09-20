@@ -1,35 +1,35 @@
 {
-    "date": "2026-09-19",
+    "date": "2026-09-20",
     "stocks": [
-        {
-            "symbol": "2886",
-            "name": "兆豐金",
-            "type": "低價股",
-            "reason": "作為官股金控，具備穩健的獲利能力與良好的股息殖利率，適合尋求穩定收益的投資人，且受景氣循環影響相對較小。",
-            "current_price": 51.1,
-            "url": "https://tw.stock.yahoo.com/quote/2886.TW",
-            "tp": 56.21,
-            "sl": 48.55
-        },
-        {
-            "symbol": "2303",
-            "name": "聯電",
-            "type": "中價股",
-            "reason": "全球領先的晶圓代工廠之一，專注於成熟製程，受惠於車用電子、物聯網等長期需求，在全球半導體供應鏈中佔有重要地位。",
-            "current_price": 156.0,
-            "url": "https://tw.stock.yahoo.com/quote/2303.TW",
-            "tp": 171.6,
-            "sl": 148.2
-        },
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，掌握最先進製程技術，受惠於AI、高效能運算及智慧型手機等長期趨勢，是全球科技發展不可或缺的關鍵供應商。",
+            "reason": "全球晶圓代工龍頭，受惠於AI晶片強勁需求，技術領先地位難以撼動，是台灣股市核心指標。",
             "current_price": 2460.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
             "tp": 2706.0,
             "sl": 2337.0
+        },
+        {
+            "symbol": "3045",
+            "name": "台灣大",
+            "type": "中價股",
+            "reason": "台灣電信業三雄之一，營收穩定且具有5G及智慧生活服務轉型潛力，提供相對穩定的現金流與股息。",
+            "current_price": 124.0,
+            "url": "https://tw.stock.yahoo.com/quote/3045.TW",
+            "tp": 136.4,
+            "sl": 117.8
+        },
+        {
+            "symbol": "2884",
+            "name": "玉山金",
+            "type": "低價股",
+            "reason": "穩健經營的金融控股公司，在數位金融領域表現亮眼，具備良好的企業社會責任形象，長期配息穩定。",
+            "current_price": 46.4,
+            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
+            "tp": 51.04,
+            "sl": 44.08
         }
     ]
 }
