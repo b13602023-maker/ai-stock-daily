@@ -1,35 +1,35 @@
 {
-    "date": "2026-09-20",
+    "date": "2026-09-21",
     "stocks": [
         {
             "symbol": "2330",
             "name": "台積電",
             "type": "高價股",
-            "reason": "全球晶圓代工龍頭，受惠於AI晶片強勁需求，技術領先地位難以撼動，是台灣股市核心指標。",
-            "current_price": 2460.0,
+            "reason": "身為全球晶圓代工龍頭，受惠於AI晶片需求爆發性成長，先進製程技術領先全球，長期展望佳。",
+            "current_price": 2470.0,
             "url": "https://tw.stock.yahoo.com/quote/2330.TW",
-            "tp": 2706.0,
-            "sl": 2337.0
+            "tp": 2717.0,
+            "sl": 2346.5
         },
         {
-            "symbol": "3045",
-            "name": "台灣大",
+            "symbol": "2301",
+            "name": "光寶科",
             "type": "中價股",
-            "reason": "台灣電信業三雄之一，營收穩定且具有5G及智慧生活服務轉型潛力，提供相對穩定的現金流與股息。",
-            "current_price": 124.0,
-            "url": "https://tw.stock.yahoo.com/quote/3045.TW",
-            "tp": 136.4,
-            "sl": 117.8
+            "reason": "為AI伺服器電源供應器主要供應商之一，持續受惠於AI趨勢帶動的電源與光電產品需求，營運穩健。",
+            "current_price": 287.0,
+            "url": "https://tw.stock.yahoo.com/quote/2301.TW",
+            "tp": 315.7,
+            "sl": 272.65
         },
         {
-            "symbol": "2884",
-            "name": "玉山金",
+            "symbol": "2885",
+            "name": "元大金",
             "type": "低價股",
-            "reason": "穩健經營的金融控股公司，在數位金融領域表現亮眼，具備良好的企業社會責任形象，長期配息穩定。",
-            "current_price": 46.4,
-            "url": "https://tw.stock.yahoo.com/quote/2884.TW",
-            "tp": 51.04,
-            "sl": 44.08
+            "reason": "台灣證券業務龍頭，在市場交易活絡時獲利表現佳，且長期配息穩定，為存股族或價值投資者提供不錯選擇。",
+            "current_price": 70.3,
+            "url": "https://tw.stock.yahoo.com/quote/2885.TW",
+            "tp": 77.33,
+            "sl": 66.78
         }
     ]
 }
